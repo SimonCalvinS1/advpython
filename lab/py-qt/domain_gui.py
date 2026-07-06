@@ -5,7 +5,7 @@ from PyQt6.QtWidgets import (
     QFormLayout, QGroupBox
 )
 from PyQt6.QtCore import Qt
-from PyQt6.QtGui import QKeyEvent, QFocusEvent, QCloseEvent
+from PyQt6.QtGui import QKeyEvent, QCloseEvent
 
 class SafeBiteValidationError(Exception):
     pass
